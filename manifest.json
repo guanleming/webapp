@@ -34,7 +34,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "www.baidu.com",
+  "start_url": "/",
   "background_color": "#3367D6",
   "display": "fullscreen",
   "scope": "/",
