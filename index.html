@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Hello!</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- import the webpage's stylesheet -->
-    <!-- Manifest -->
-    <link rel="manifest" href="./manifest.json">
-  </head>  
+    <title>A2HS Demo</title>
+    <style>
+      .add-button {
+        position: absolute;
+        top: 1px;
+        left: 1px;
+      }
+    </style>
+    <script src="index.js" defer></script>
+    <link rel="manifest" href="manifest.webmanifest">
+  </head>
   <body>
-    <h1 style="color: red;">这是pwa渐进式网站</h1>
+    <div>测试文本</div>
+    <button class="add-button">添加到桌面</button>
   </body>
 </html>
