@@ -1,7 +1,7 @@
 {
-  "short_name": "Weather",
-  "name": "Weather - Do I need an umbrella?",
-  "description": "Weather forecast information",
+  "short_name": "pwa-demo", 
+  "name": "this is pwa app",
+  "description": "glm development",
   "icons": [
     {
       "src": "https://via.placeholder.com/48",
@@ -34,9 +34,9 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "www.baidu.com",
   "background_color": "#3367D6",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "/",
   "theme_color": "#3367D6"
 }
