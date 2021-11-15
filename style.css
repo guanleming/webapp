@@ -1,27 +1,33 @@
-html {
-  height: 100%;
-  background: black;
-}
-
 body {
-  height: inherit;
-  margin: 0;
+  background-color: #546E7A;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-img {
-  display: block;
+a, a:visited {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#installContainer {
+  position: absolute;
+  bottom: 1em;
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
-.add-button {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-}
-
-@media (orientation: landscape) {
-  img {
-    height: 100%;
-    object-fit: cover;
-  }
+#installContainer button {
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  font-size: 1em;
+  padding: 0.75em;
 }
