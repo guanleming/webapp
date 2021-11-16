@@ -34,7 +34,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   addBtn.style.display = 'block';
 
   
-  addBtn.onclick() = function () {
+  addBtn.onclick = function () {
     alert("123")
   }
   addBtn.addEventListener('click', () => {
