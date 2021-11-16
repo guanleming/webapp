@@ -34,7 +34,9 @@ window.addEventListener('beforeinstallprompt', (e) => {
   addBtn.style.display = 'block';
 
   
-  
+  addBtn.onclick() = function () {
+    alert("123")
+  }
   addBtn.addEventListener('click', () => {
     // hide our user interface that shows our A2HS button
     addBtn.style.display = 'none';
@@ -52,5 +54,4 @@ window.addEventListener('beforeinstallprompt', (e) => {
   });
 
 
-  addBtn.performClick();
 });
